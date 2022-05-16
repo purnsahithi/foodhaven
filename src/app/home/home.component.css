@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 20%;
+    padding: 150px 100px;
+  }
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes example1 {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+
+  #img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes example2 {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }

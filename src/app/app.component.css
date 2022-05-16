@@ -1,0 +1,8 @@
+.active{
+    background: rgb(59, 106, 116);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navitem{
+    padding: 10px;
+}
